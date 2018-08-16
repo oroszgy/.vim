@@ -81,6 +81,7 @@ Plug 'rizzatti/dash.vim'
 Plug 'vim-scripts/netrw.vim'
 
 Plug 'mhinz/vim-startify'
+Plug 'goerz/ipynb_notedown.vim'
 call plug#end()
 
 " Plugin settings
