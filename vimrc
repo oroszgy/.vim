@@ -89,6 +89,9 @@ map <C-n> :NERDTreeToggle<CR>
 colorscheme molokai
 set noshowmode
 
+g:notedown_enable=1
+g:notedown_code_match='all'
+
 nmap <silent> <leader>D <Plug>DashSearch
 
 let g:pymode_rope_autoimport = 0
