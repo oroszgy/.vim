@@ -81,16 +81,12 @@ Plug 'rizzatti/dash.vim'
 Plug 'vim-scripts/netrw.vim'
 
 Plug 'mhinz/vim-startify'
-Plug 'goerz/ipynb_notedown.vim'
 call plug#end()
 
 " Plugin settings
 map <C-n> :NERDTreeToggle<CR>
 colorscheme molokai
 set noshowmode
-
-g:notedown_enable=1
-g:notedown_code_match='all'
 
 nmap <silent> <leader>D <Plug>DashSearch
 
