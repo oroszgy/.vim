@@ -57,6 +57,7 @@ nnoremap <C-H> <C-W><C-H>
 
 " Plugins
 call plug#begin('~/.vim/plugged')
+Plug 'chrisbra/csv.vim'
 Plug 'tpope/vim-sensible'
 
 Plug 'scrooloose/nerdtree'
